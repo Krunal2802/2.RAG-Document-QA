@@ -3,8 +3,6 @@
 A **Streamlit-based RAG (Retrieval-Augmented Generation) chatbot** that lets you **upload PDFs, DOCX, or TXT files** and ask questions directly from their content.  
 It uses **OpenAI embeddings** for vector search and **Groq LLM (Llama 3.1 8B Instant)** for fast, accurate answers.  
 
----
-
 ## 🚀 Features
 
 - Upload multiple **PDF / DOCX / TXT** files
@@ -14,8 +12,6 @@ It uses **OpenAI embeddings** for vector search and **Groq LLM (Llama 3.1 8B Ins
 - Adjustable **Top-K chunks**, **chunk size**, and **overlap**
 - Interactive ChatGPT-like interface with `st.chat_message`
 - Session memory with option to **clear chats and indexes**
-
----
 
 ## 🛠️ Tech Stack
 
@@ -28,8 +24,6 @@ It uses **OpenAI embeddings** for vector search and **Groq LLM (Llama 3.1 8B Ins
 - **python-dotenv** – Environment variable management
 - **PyPDFLoader / Docx2txtLoader / TextLoader** – Document loaders
 
----
-
 ## 📂 Project Structure
 
 ├── app.py # Main Streamlit app
@@ -37,8 +31,6 @@ It uses **OpenAI embeddings** for vector search and **Groq LLM (Llama 3.1 8B Ins
 ├── requirements.txt # Python dependencies
 ├── .env # API keys
 └── README.md # Documentation
-
----
 
 ## ⚙️ Setup & Installation
 
